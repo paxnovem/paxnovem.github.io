@@ -1,0 +1,14 @@
+https://github.com/getpelican/pelican-themes
+This is where I get my theme from as it is the prefered way to install
+
+I need to run make html in the docker container
+
+The theme needs to be at the location sepecifed in the docker-compose file for it to get properly mounted
+
+https://github.com/alexandrevicenzi/Flex
+That is my theme github repo
+
+http://localhost:8000/pages/contact-me.html
+Is the current local url of the website
+
+Generate the site with the command `pelican content`

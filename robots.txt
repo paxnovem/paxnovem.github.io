@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://paxnovem.github.io/sitemap.xml 
