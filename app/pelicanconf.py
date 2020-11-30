@@ -37,6 +37,8 @@ THEME = "/pelican-themes/Flex"
 
 INDEX_SAVE_AS = 'blog.html'
 DISPLAY_PAGES_ON_MENU = False
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # theme settings
 SITELOGO = SITEURL + "/images/profile.jpg"
