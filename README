@@ -12,3 +12,6 @@ http://localhost:8000/pages/contact-me.html
 Is the current local url of the website
 
 Generate the site with the command `pelican content`
+
+Deploy changes to master with the following command in the container
+ghp-import -b master output
