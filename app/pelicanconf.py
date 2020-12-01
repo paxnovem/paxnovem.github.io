@@ -20,13 +20,13 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Home', '/'),
-         ('Blog', '/blog.html'),
-         ('Contact me', '/pages/contact-me.html'),)
+         ('Blog', '/blog.html'),)
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/bgrohe/'),
           ('github', 'https://github.com/paxnovem'),
-          ('twitter', 'https://twitter.com/grohe43'),)
+          ('twitter', 'https://twitter.com/grohe43'),
+          ('envelope', 'mailto:brian@briangrohe.com'),)
 
 DEFAULT_PAGINATION = 10
 
