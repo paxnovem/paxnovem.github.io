@@ -11,7 +11,17 @@ That is my theme github repo
 http://localhost:8000/pages/contact-me.html
 Is the current local url of the website
 
-Generate the site with the command `pelican content`
+## Build and deployment steps
 
-Deploy changes to master with the following command in the container
-ghp-import -b master output
+Generate the site with the command `pelican content` in the container
+
+Deploy changes to master with the following command in the container when on the develop branch
+`ghp-import -b master output`
+
+Change to the local master branch and push that branch
+
+Github should automatically deploy those changes
+
+## Common issues:
+If I change files in the container they will not be owned by my user. To fix this:
+`chroot -R username .` Outside the development container.
