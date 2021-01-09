@@ -5,7 +5,7 @@ save_as: index.html
 I am a software developer for work and fun. I enjoy finding different ways to make an impact whether that is code, teaching, architecting, documenting or the many other various other ways to make a project succeed. Areas of interest that I mesh with technology are fitness, travel, food, and learning. 
 
 ## What technologies do I use?
-Different technologies fit different problems, have a look below to see different technologies that I have used and when I like to use them.
+Different technologies fit different problems, have a look below to see different technologies that I have used and when I like to use them. I have notes some of my quick thoughts below about some technologies I enjoy using. 
 
 ### Flask
 
