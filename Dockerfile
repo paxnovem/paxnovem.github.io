@@ -2,8 +2,11 @@ FROM python:3.8 AS python
 
 WORKDIR /code
 
-COPY . .
+COPY requirements.txt requirements.txt
+
 RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
 
 WORKDIR /code/app/output/
 
