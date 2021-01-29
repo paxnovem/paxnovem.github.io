@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = "/pelican-themes/Flex"
+THEME = "/code/Flex"
 
 INDEX_SAVE_AS = 'blog.html'
 DISPLAY_PAGES_ON_MENU = False

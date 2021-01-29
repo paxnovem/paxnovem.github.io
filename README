@@ -24,4 +24,4 @@ Github should automatically deploy those changes
 
 ## Common issues:
 If I change files in the container they will not be owned by my user. To fix this:
-`chroot -R username .` Outside the development container.
+`sudo chown -R username .` Outside the development container.
