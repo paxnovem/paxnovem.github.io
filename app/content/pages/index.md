@@ -22,4 +22,3 @@ SQLAlchemy is database toolkit and ORM. If you are using Flask or other framewor
 ___
 
 ### Many more
-[See what other technologies I have worked with.]({filename}technologies.md)
